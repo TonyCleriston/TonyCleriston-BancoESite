@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login ST</title>
+    <link rel="stylesheet" href="loginST.css">
+</head>
+<body>
+    <div class="telalogin">
+  <main>
+<div class="form">
+    <div class="login">
+    <h1>LOGIN</h1>
+<div class="textfield">
+    <label for="usuario2">Usuário</label>
+    <input id="usuario2" type="text" name="usuario2" placeholder="Usuário" required maxlength="16">
+</div>
+<div class="textfield">
+    <label for="senha2">Senha</label>
+    <input id="senha2" type="text" name="senha2" placeholder="Senha" required maxlength="8">
+</div>
+<button class="botao" onclick="logar()">Entrar</button>
+<button class="botao2" onclick="cadastro()">Cadastro</button>
+</div>
+</div>
+  </main>
+</div>
+<div class="telacadastro">
+    <main>
+        <div class="form2">
+            <div class="login">
+            <h1>CADASTRO</h1>
+        <div class="textfield">
+            <label for="usuario">Usuário</label>
+            <input id="usuario" type="text" name="usuario" placeholder="Usuário" required maxlength="16">
+        </div>
+        <div class="textfield">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="Email" required>
+        </div>
+        <div class="textfield">
+            <label for="senha">Senha</label>
+            <input id="senha" type="text" name="senha" placeholder="Senha" required maxlength="8">
+            
+        </div>
+        <button type="button" class="botao" onclick="cadastrar()">Cadastrar</button>
+        <button class="botao2" onclick="login()">Login</button>
+        </div>
+        </div>
+          </main>
+</div>
+    <script src="loginST.js"></script>
+</body>
+</html>
