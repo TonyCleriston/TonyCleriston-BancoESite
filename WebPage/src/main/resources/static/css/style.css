@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    
+}
+.telacadastro{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.telalogin {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("https://img.elo7.com.br/product/original/294ABDF/fundo-fotografico-em-tecido-textura-vermelho-2-60x1-50m-fundo-fotografico.jpg");
+}
+h1 {
+    color: rgb(255, 128, 44);
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 2px black; 
+}
+.form {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color:rgb(80, 83, 85);
+border-radius: 20px;
+padding: 60px 40px;
+box-shadow: 0 10px 40px rgba(8, 8, 8, 0.959);
+
+}
+.form2 {
+    width: 350px;
+    height: 450px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color:rgb(80, 83, 85);
+border-radius: 20px;
+padding: 40px 40px;
+box-shadow: 0 10px 40px rgba(8, 8, 8, 0.959);
+padding-top: 15px;
+padding-bottom: 25px;
+
+}
+.form::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(rgb(255, 77, 77),rgb(252, 255, 66));
+    animation: animate 5s linear infinite;
+    
+}
+@keyframes animate {
+    0% {
+transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.form2::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: rgb(80, 83, 85);
+    border-radius: 20px;
+    
+}
+.form2::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 140%;
+    background: linear-gradient(rgb(255, 77, 77),rgb(252, 255, 66));
+    animation: animate 5s linear infinite;
+    
+}
+@keyframes animate {
+    0% {
+transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.login {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form::after{
+    content: '';
+    position: absolute;
+    inset: 4px;
+    background: rgb(80, 83, 85);
+    border-radius: 20px;
+    
+}
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color:rgb(251, 255, 44);
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input {
+    width: 250px;
+    border: 0;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(25, 27, 27);
+    box-shadow: 0 10px 20px rgba(8, 8, 8, 0.959);
+    box-sizing: border-box;
+    color: beige;
+}
+.botao {
+    width: 60%;
+    border: 0;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor:pointer;
+    background: rgb(25, 27, 27);
+    color: rgb(251, 255, 44);
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(8, 8, 8, 0.959);   
+}
+.botao2{
+    width: 60%;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor:pointer;
+    background: rgb(25, 27, 27);
+    color: rgb(251, 255, 44);
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(8, 8, 8, 0.959);   
+}

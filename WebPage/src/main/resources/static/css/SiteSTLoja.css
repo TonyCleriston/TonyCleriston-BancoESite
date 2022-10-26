@@ -1,0 +1,285 @@
+nav {
+    background-image: url("https://st.depositphotos.com/57650454/51563/i/450/depositphotos_515634332-stock-photo-classic-marine-blue-red-yellow.jpg");
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.linha {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(110, 13, 9);
+}
+h2 {
+    margin:0;
+}
+nav h3 {
+    margin-right: 70px;
+    color: antiquewhite;
+    font-size: x-large;
+    text-shadow: 5px 5px 3px black;  
+}
+body {
+    margin: 0;
+}
+main {
+    width: 100%;
+    height: 700px;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/610/261/139/stranger-things-netflix-tv-series-fan-art-wallpaper-preview.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+main h3 {
+margin:0;
+}
+.titulo {
+    font-size:100px;
+        color: wheat;
+       padding-top: 40px;
+      text-align: center;
+      text-shadow: 5px 5px 3px black; 
+}
+.titulo2 {
+    font-size:100px;
+    color: wheat;
+   padding-top: 10px;
+  text-align: center;
+  text-shadow: 5px 5px 3px black; 
+}
+.subtitulo {
+    
+    color: wheat;
+   margin-top: 220px;
+  text-align: center;
+  text-shadow: 5px 5px 3px black;  
+}
+.pesquisa {
+    background: white;
+    height: 50px;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+   position: absolute;
+   top: 700px;
+   right: 500px;
+ 
+}
+.grid div:hover img {
+    -moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5)
+}
+.grid div img {
+    -moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+	transition: all 0.4s;
+}
+.procura {
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+.produtos{
+    width: 100%;
+    height: 1250px;
+    background-image: url("https://img.elo7.com.br/product/600x380/35F0A4B/papel-de-parede-textura-cinza-esc-preto-linho-4175-premium-papel-de-parede-lavabo.jpg");
+   
+}
+.grid {
+    height: 750px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    position: absolute;
+    margin: 0;
+    right: 290px;
+
+}
+.grid div {
+    border-bottom: 5px solid rgb(94, 19, 19);
+}
+.grid strong {
+    color: rgb(214, 193, 154);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.img1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1; 
+   
+}
+.img2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;   
+}
+.img3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;   
+}
+.img4 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;    
+}
+.img5 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;    
+}
+.img6 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;   
+}
+.img7 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;   
+}
+.img8 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;   
+}
+.img9 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;   
+}
+.img10 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;    
+}
+.img11{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;  
+}
+.gif {
+    position: absolute;
+    top: 1655px;
+}
+.gif2 {
+    position: absolute;
+    top: 1660px;
+    left: 900px;
+}
+.gif3 {
+    position: absolute;
+    top: 1010px;
+    left: 950px;
+}
+.gif4 {
+    position: absolute;
+    top: 1000px;
+}
+.gif5 {
+    position: absolute;
+    top: 430px;
+    right: 500px;
+}
+.form {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://img.elo7.com.br/product/original/294ABDF/fundo-fotografico-em-tecido-textura-vermelho-2-60x1-50m-fundo-fotografico.jpg");
+
+}
+.contato {
+    display: flex;
+    justify-content: center;
+}
+.contato h2 {
+    font-size:100px;
+    color: wheat;
+  text-shadow: 5px 5px 3px black; 
+  padding-top: 30px;
+}
+fieldset {
+    border: 0;
+   
+}
+input, textarea , button {
+    border-radius: 5px;
+}
+label {
+    display: block;
+}
+#msg , #email , #nome {
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+input:focus, textarea:focus , button:focus {
+    background: #ebebf7;
+}
+.botao {
+    font-size: 1.2em;
+    background: wheat;
+    border: 0;
+    margin-top: 1em;
+    color: rgb(94, 22, 22);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px black;  
+}
+form {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    margin-top: 50px;
+}
+input {
+    width: 300px;
+}
+textarea {
+    width: 300px;
+    height: 60px;
+}
+button {
+    width: 200px;
+    margin-left: 16%;
+}
+footer {
+    background-image: url("https://st.depositphotos.com/57650454/51563/i/450/depositphotos_515634332-stock-photo-classic-marine-blue-red-yellow.jpg");
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+footer img {
+    margin: 0;
+    width: 130px;
+    margin-left: 5%;
+}
+footer h1 {
+    margin-left: 2%;
+    margin-bottom: 27px;
+    color: wheat;
+    text-shadow: 5px 5px 5px black; 
+}
